@@ -68,7 +68,9 @@
 
 #pragma once
 
-
+//#define __arm__
+#define TS_ADDRESS_BITS 32
+#define TS_NO_MEMORY_BARRIER
 //----------------------------------------------------------------------------
 // Unified compiler naming: TS_GCC, TS_MSC (Microsoft C)
 //----------------------------------------------------------------------------
