@@ -1,0 +1,1 @@
+make CROSS_TARGET=aarch64-linux-gnu NOTEST=1 NOPCSC=1 NOCURL=1 NODTAPI=1 static -j8
